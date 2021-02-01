@@ -17,7 +17,7 @@
 
 ## Live Demo
 
-[Try a lıve demo]()
+[Try a lıve demo](https://sergiocortessat.github.io/Capstone-Director-schools/.)
 
 
 ## Getting Started

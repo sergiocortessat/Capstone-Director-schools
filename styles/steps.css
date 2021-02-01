@@ -1,0 +1,48 @@
+.steps {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  text-align: center;
+  padding: 40px 72px;
+}
+
+.steps h4 {
+  color: #d3574a;
+  font-weight: bold;
+  font-size: 1.2rem;
+  height: 12vh;
+  width: 100%;
+}
+
+div[class^="box"] {
+  width: 100%;
+}
+
+div[class^="box"] p {
+  text-align: justify;
+}
+
+div[class^="box"] h5 {
+  font-size: 1.1rem;
+}
+
+div[class^="box"] i {
+  font-size: 2em;
+}
+
+@media only screen and (min-width: 1024px) {
+  .steps {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 50px;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
+  .steps h4 {
+    grid-row: 1;
+    grid-column: 1 / span 2;
+  }
+}

@@ -7,7 +7,6 @@
   justify-content: center;
   flex-direction: column;
   background-color: #dc3545;
-  font-family: "Varela Round", sans-serif;
 }
 
 .navbar-logo {
@@ -38,7 +37,7 @@
   color: #fff;
 }
 
-.navbar-logo a:hover {
+.navbar-logo a:hover {    margin-bottom: 7px;
   color: #fff;
   text-decoration: none;
 }
@@ -49,6 +48,7 @@
 
 .navbar-logo svg {
   width: 1em;
+  margin-bottom: 7px;
 }
 
 @media only screen and (min-width: 768px) {

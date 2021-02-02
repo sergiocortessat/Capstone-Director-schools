@@ -128,6 +128,7 @@
 
 .sign-up > div > input {
   width: 100%;
+  background-color: rgb(216, 221, 221);
 }
 
 .sign-up h3 {
@@ -167,6 +168,14 @@
   .school-logo {
     width: 20% !important;
   }
+
+  .sign-up > div {
+    max-width: 80%;
+  }
+
+  .sign-up-buttons {
+    justify-content: start;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -179,11 +188,7 @@
   }
 
   .sign-up > div {
-    width: 80%;
-  }
-
-  .sign-up-buttons {
-    justify-content: start;
+    width: 70%;
   }
 
   .school-logo {

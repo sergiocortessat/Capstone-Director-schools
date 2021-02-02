@@ -2,9 +2,16 @@
 
 # Capstone Project - Director Of Schools
 
-> Creating first repository with Linter, separate commits and a HTML and CSS file
+Capstone project. Clinet has requested a page to find schools within the areas, which minimizes the effort of parents and guarantee simplified searches that fits their  needs appliying different filters such as Region, City and Zipcode
 
+## Main Page
 ![screenshot](./screenshot.png)
+
+## Search results page
+![screenshot](./screenshot3.png)
+
+## About Schools.
+![screenshot](./screenshot2.png)
 
 
 ## Built With
@@ -14,6 +21,7 @@
 - Linter
 - Bootstrap
 - Jquery
+- Animation
 
 ## Live Demo
 
@@ -38,7 +46,6 @@ Microverse Capstone Project Director of Schools.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
 
 ## Show your support
 
@@ -46,9 +53,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Hat tip to anyone whose code helped to delevop this project
+- PatashuleKE [PatashuleKE](https://www.behance.net/gallery/25563385/PatashuleKE)
 
 ## 📝 License
 

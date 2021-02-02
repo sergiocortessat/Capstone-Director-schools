@@ -2,13 +2,18 @@
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .search-section {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
 }
 
 [class^="search-item"] {
@@ -24,27 +29,45 @@
 }
 
 .search-item1 {
-  background: url(/assets/gdansk-1.jpg) no-repeat center;
+  background: url("../assets/gdansk-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .search-item2 {
-  background: url(/assets/school2.jpg) no-repeat center;
+  background: url("../assets/school2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .search-item3 {
-  background: url(/assets/school2.jpg) no-repeat center;
+  background: url("../assets/school4.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .search-item4 {
-  background: url(/assets/school2.jpg) no-repeat center;
+  background: url("../assets/school5.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .search-item5 {
-  background: url(/assets/school2.jpg) no-repeat center;
+  background: url("../assets/school6.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .search-item6 {
-  background: url(/assets/school2.jpg) no-repeat center;
+  background: url("../assets/school8.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .search-results h1 {
@@ -72,6 +95,7 @@
 
 .search-box-buttons {
   margin-top: 10px;
+  text-align: center;
 }
 
 .text {

@@ -37,7 +37,8 @@
   color: #fff;
 }
 
-.navbar-logo a:hover {    margin-bottom: 7px;
+.navbar-logo a:hover {
+  margin-bottom: 7px;
   color: #fff;
   text-decoration: none;
 }

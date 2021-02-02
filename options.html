@@ -11,6 +11,7 @@
     <link href="https://g1.nyt.com/fonts/css/web-fonts.5810def60210a2fa7d0848f37e3fa048bb6147b1.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/37124d06d1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/main.css" type="text/css">
+    <link rel="stylesheet" href="styles/options.css" type="text/css">
     <link rel="stylesheet" href="styles/navbar.css" type="text/css">
     <link rel="stylesheet" href="styles/footer.css" type="text/css">
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
@@ -22,9 +23,71 @@
     <!--NAVBAR-->
     <div id="nav-placeholder"></div>
 
-    <!--Search menu-->
-   
+
+    <section class="jumbotron search-box">
+        <h2>Filter By Name, State, Region, City, Zipcode-</h2>
+        <div class="search-box-container">
+            <div class="search-box-item text">
+                <label>SCHOOL NAME</label>
+                <input type="text">
+            </div>
+
+            <div class="search-box-item">
+                <label for="state">STATE:</label>
+                <select name="state" id="state" class="custom-select">
+                    <option selected="">Choose...</option>
+                    <option value="france">Pomerania</option>
+                    <option value="germany">Lodz</option>
+                    <option value="italy">Warsawa</option>
+                    <option value="poland">Krakowa</option>
+                    <option value="romania">Netse</option>
+                    <option value="spain">Other</option>
+                </select>
+            </div>
+
+
+            <div class="search-box-item">
+                <label for="county">COUNTY:</label>
+                <select name="county" id="county" class="resize-select custom-select">
+                    <option selected="">Choose...</option>
+                </select>
+            </div>
+
+            <div class="search-box-item">
+                <label for="city">CITY:</label>
+                <select name="city" id="city" class="resize-select custom-select">
+                    <option selected="">Choose...</option>
+                </select>
+            </div>
+            <div class="search-box-item">
+                <label for="zipcode">ZIPCODE:</label>
+                <select name="zipcode" id="zipcode" class="resize-select custom-select">
+                    <option selected="">Choose...</option>
+                </select>
+            </div>
+            <div class="search-box-buttons">
+                <button type="submit" class="btn btn-primary mx-lg-2">Search</button>
+                <button class="btn btn-warning text-white">
+                    <!-- <i class="fas fa-edit"></i> Font Awesome fontawesome.com -->Clear
+                </button>
+            </div>
+        </div>
+    </section>
+
     <!--Search results-->
+
+    <section class="search-results">
+        <h1>Search Results Found 6 results</h1>
+        <div class="search-section">
+            <a class="search-item1" href="#">Dropmont</a>
+            <a class="search-item2" href="#">Farmwell</a>
+            <a class="search-item3" href="#">Statmont</a>
+            <a class="search-item4" href="#">Clearmonth</a>
+            <a class="search-item5" href="#">Lesmess</a>
+            <a class="search-item6" href="#">Straton</a>
+        </div>
+
+    </section>
 
 
     <!--FOOTER-->

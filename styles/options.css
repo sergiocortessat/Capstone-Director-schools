@@ -1,0 +1,109 @@
+.search-results {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+[class^="search-item"] {
+  display: block;
+  width: 75%;
+  margin: 10px;
+  height: auto;
+  font-size: 1.8rem;
+  padding: 100px 0;
+  color: white;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.search-item1 {
+  background: url(/assets/gdansk-1.jpg) no-repeat center;
+}
+
+.search-item2 {
+  background: url(/assets/school2.jpg) no-repeat center;
+}
+
+.search-item3 {
+  background: url(/assets/school2.jpg) no-repeat center;
+}
+
+.search-item4 {
+  background: url(/assets/school2.jpg) no-repeat center;
+}
+
+.search-item5 {
+  background: url(/assets/school2.jpg) no-repeat center;
+}
+
+.search-item6 {
+  background: url(/assets/school2.jpg) no-repeat center;
+}
+
+.search-results h1 {
+  font-size: 2.5rem;
+  color: #5b5656;
+}
+
+.search-section a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.search-box {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.search-box h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.search-box-buttons {
+  margin-top: 10px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.text input {
+  width: 100%;
+  height: 35px;
+}
+
+@media only screen and (min-width: 768px) {
+  [class^="search-item"] {
+    width: 25%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .search-box-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+  }
+
+  .search-box-item {
+    margin-left: 10px;
+  }
+
+  .search-box-buttons {
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+  }
+}

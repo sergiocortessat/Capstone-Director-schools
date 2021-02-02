@@ -1,11 +1,10 @@
 .search-bar {
   width: 100%;
   height: 75vh;
-  background-image: url("/assets/kidlearning.jpg");
+  background-image: url("https://www.atlantaparent.com/wp-content/uploads/2020/03/web-stock-online-learning-b-x-1024.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  overflow-x: hidden;
   display: flex;
   justify-content: space-around;
   align-items: center;

@@ -52,6 +52,12 @@
   margin-bottom: 7px;
 }
 
+@media only screen and (max-width: 768px) {
+  .navbar-items {
+    margin-bottom: 10px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .navbar {
     display: flex;
@@ -64,11 +70,27 @@
 
   .navbar-logo {
     padding-bottom: 0;
+    margin-left: 40px;
+  }
+
+  .navbar-items {
+    padding-right: 40px;
+    margin-bottom: 0;
   }
 }
 
 @media only screen and (min-width: 1024px) {
   .navbar-items-hide {
     display: inline;
+  }
+
+  .navbar-logo {
+    padding-bottom: 0;
+    margin-left: 10px;
+  }
+
+  .navbar-items {
+    padding-right: 10px;
+    margin-bottom: 0;
   }
 }

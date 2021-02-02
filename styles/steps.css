@@ -17,7 +17,7 @@
 }
 
 div[class^="box"] p {
-  text-align: justify;
+  text-align: center;
 }
 
 div[class^="box"] h5 {

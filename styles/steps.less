@@ -1,3 +1,7 @@
+@box: ~'div[class^="box"]';
+@desktop: ~"only screen and (min-width: 1024px)";
+@mobile: ~"only screen and (min-width: 768px)";
+
 .steps {
   display: inline-block;
   width: 100%;
@@ -9,26 +13,39 @@
 }
 
 .steps h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #d3574a;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1rem;
   height: 12vh;
-  width: 100%;
-}
-
-div[class^="box"] p {
   text-align: center;
 }
 
-div[class^="box"] h5 {
+@{box} p {
+  text-align: center;
+}
+
+@{box} h5 {
   font-size: 1.1rem;
 }
 
-div[class^="box"] i {
+@{box} i {
   font-size: 2em;
 }
 
-@media only screen and (min-width: 1024px) {
+@{box} {
+  margin-bottom: 20px;
+}
+
+@media @mobile {
+  .steps h4 {
+    font-size: 1.2rem;
+  }
+}
+
+@media @desktop {
   .steps {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -42,5 +59,6 @@ div[class^="box"] i {
   .steps h4 {
     grid-row: 1;
     grid-column: 1 / span 2;
+    font-size: 1.2rem;
   }
 }

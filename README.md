@@ -2,7 +2,7 @@
 
 # Capstone Project - Director Of Schools
 
-Capstone project. Clinet has requested a page to find schools within the areas, which minimizes the effort of parents and guarantee simplified searches that fits their  needs appliying different filters such as Region, City and Zipcode
+Capstone project. Clinet has requested a page to find schools within the areas, which minimizes the effort of parents and guarantee simplified searches that fits their needs appliying different filters such as Region, City and Zipcode. The pages follow the desgin pattern of PatashuleKE. More information below
 
 ## Main Page
 ![screenshot](./screenshot.png)
@@ -22,6 +22,7 @@ Capstone project. Clinet has requested a page to find schools within the areas, 
 - Bootstrap
 - Jquery
 - Animation
+- LESS Proccesor
 
 ## Live Demo
 
@@ -54,11 +55,10 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code helped to delevop this project
-- PatashuleKE [PatashuleKE](https://www.behance.net/gallery/25563385/PatashuleKE)
+- [PatashuleKE](https://www.behance.net/gallery/25563385/PatashuleKE)
 
 ## 📝 License
 
-MIT License
 Copyright (c) 2021 sergiocortessat
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

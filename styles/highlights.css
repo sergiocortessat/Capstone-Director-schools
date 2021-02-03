@@ -131,18 +131,21 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 60%;
   }
 
   .highlight-grey > div {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 60%;
   }
 
   .highlight-blue > div {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 60%;
   }
 
   .button-font-red {

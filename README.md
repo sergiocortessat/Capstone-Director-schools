@@ -5,7 +5,7 @@
 Capstone project. Clinet has requested a page to find schools within the areas, which minimizes the effort of parents and guarantee simplified searches that fits their needs appliying different filters such as Region, City and Zipcode. The pages follow the desgin pattern of PatashuleKE. More information below
 
 ## Main Page
-![screenshot](./screenshot.png)
+![screenshot](./screenshot2)
 
 ## Search results page
 ![screenshot](./screenshot3.png)

@@ -1,0 +1,64 @@
+@box: ~'div[class^="box"]';
+@desktop: ~"only screen and (min-width: 1024px)";
+@mobile: ~"only screen and (min-width: 768px)";
+
+.steps {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  text-align: center;
+  padding: 40px 72px;
+  margin-bottom: 60px;
+}
+
+.steps h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d3574a;
+  font-weight: bold;
+  font-size: 1rem;
+  height: 12vh;
+  text-align: center;
+}
+
+@{box} p {
+  text-align: center;
+}
+
+@{box} h5 {
+  font-size: 1.1rem;
+}
+
+@{box} i {
+  font-size: 2em;
+}
+
+@{box} {
+  margin-bottom: 20px;
+}
+
+@media @mobile {
+  .steps h4 {
+    font-size: 1.2rem;
+  }
+}
+
+@media @desktop {
+  .steps {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 50px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 120px;
+  }
+
+  .steps h4 {
+    grid-row: 1;
+    grid-column: 1 / span 2;
+    font-size: 1.2rem;
+  }
+}

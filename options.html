@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+        integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <link href="https://g1.nyt.com/fonts/css/web-fonts.5810def60210a2fa7d0848f37e3fa048bb6147b1.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/37124d06d1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/main.css" type="text/css">
+    <link rel="stylesheet" href="styles/options.css" type="text/css">
+    <link rel="stylesheet" href="styles/navbar.css" type="text/css">
+    <link rel="stylesheet/less" type="text/css" href="styles/footer.less" />
+    <link rel="icon" href="assets/favicon.ico">
+    <script src="less.js"></script> 
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+    <title>EDUCATION FIRST</title>
+</head>
+
+<body>
+
+    <!--NAVBAR-->
+    <nav id="nav-placeholder" class="sticky-top"></nav>
+
+
+    <section class="jumbotron search-box">
+        <h2>Filter By Name, State, Region, City, Zipcode-</h2>
+        <div class="search-box-container">
+            <div class="search-box-item text">
+                <label>SCHOOL NAME</label>
+                <input type="text">
+            </div>
+
+            <div class="search-box-item">
+                <label for="state">STATE:</label>
+                <select name="state" id="state" class="custom-select">
+                    <option selected="">Choose...</option>
+                    <option value="france">Pomerania</option>
+                    <option value="germany">Lodz</option>
+                    <option value="italy">Warsawa</option>
+                    <option value="poland">Krakowa</option>
+                    <option value="romania">Netse</option>
+                    <option value="spain">Other</option>
+                </select>
+            </div>
+
+
+            <div class="search-box-item">
+                <label for="county">COUNTY:</label>
+                <select name="county" id="county" class="resize-select custom-select">
+                    <option selected="">Choose...</option>
+                </select>
+            </div>
+
+            <div class="search-box-item">
+                <label for="city">CITY:</label>
+                <select name="city" id="city" class="resize-select custom-select">
+                    <option selected="">Choose...</option>
+                </select>
+            </div>
+            <div class="search-box-item">
+                <label for="zipcode">ZIPCODE:</label>
+                <select name="zipcode" id="zipcode" class="resize-select custom-select">
+                    <option selected="">Choose...</option>
+                </select>
+            </div>
+            <div class="search-box-buttons">
+                <button type="submit" class="btn btn-primary mx-lg-2">Search</button>
+                <button class="btn btn-warning text-white">
+                    <!-- <i class="fas fa-edit"></i> Font Awesome fontawesome.com -->Clear
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!--Search results-->
+
+    <section class="search-results">
+        <h1>Search Results Found 6 results</h1>
+        <div class=" search-section">
+            <a class="search-item1" href="about.html">Dropmont</a>
+            <a class="search-item2" href="about.html">Farmwell</a>
+            <a class="search-item3" href="about.html">Statmont</a>
+            <a class="search-item4" href="about.html">Clearmonth</a>
+            <a class="search-item5" href="about.html">Lesmess</a>
+            <a class="search-item6" href="about.html">Straton</a>
+        </div>
+
+    </section>
+
+
+    <!--FOOTER-->
+
+    <div id="footer-placeholder"></div>
+
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("nav-bar.html");
+        });
+
+        $(function () {
+            $("#footer-placeholder").load("footer.html");
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,162 @@
+.highlights {
+  width: 100%;
+  height: auto;
+}
+
+.highlight-red {
+  background-color: rgb(226, 127, 100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.highlight-red > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.highlight-red-font {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.button-font-red {
+  color: rgb(226, 127, 100);
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  width: 90%;
+}
+
+.highlight-red-image {
+  width: 50%;
+}
+
+.image-circle {
+  width: 40%;
+}
+
+.highlight-grey {
+  background-color: rgb(151, 165, 166);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.highlight-grey > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.button-font-grey {
+  color: rgb(151, 165, 166);
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  width: 90%;
+}
+
+.highlight-blue {
+  background-color: rgb(81, 155, 215);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.highlight-blue > div {
+  width: 70%;
+}
+
+@media only screen and (min-width: 768px) {
+  .button-font-red {
+    width: 35%;
+  }
+
+  .button-font-grey {
+    width: 45%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /* queries for ways section on large screen */
+
+  .image-circle {
+    height: 280px;
+    width: 50%;
+  }
+
+  .highlight-red {
+    background-color: rgb(226, 127, 100);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 50px;
+  }
+
+  .highlight-grey {
+    background-color: rgb(151, 165, 166);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 50px;
+  }
+
+  .highlight-blue {
+    background-color: rgb(81, 155, 215);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 50px;
+  }
+
+  .button-font-red,
+  .button-font-grey {
+    margin-left: 0;
+  }
+
+  .highlight-red-image {
+    width: 25%;
+  }
+
+  .highlight-red > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 60%;
+  }
+
+  .highlight-grey > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 60%;
+  }
+
+  .highlight-blue > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 60%;
+  }
+
+  .button-font-red {
+    width: 35%;
+  }
+
+  .button-font-grey {
+    width: 40%;
+  }
+
+  .highlight-red-font {
+    text-align: left;
+  }
+}

@@ -2,7 +2,7 @@
 
 # Capstone Project - Director Of Schools
 
-Capstone project. Clinet has requested a page to find schools within the areas, which minimizes the effort of parents and guarantee simplified searches that fits their needs appliying different filters such as Region, City and Zipcode. The pages follow the desgin pattern of PatashuleKE. More information below
+Capstone project. The client has requested a page to find schools within the areas, which minimizes the effort of parents and guarantee simplified searches that fit their needs applying different filters such as Region, City, and Zipcode. The pages follow the design pattern of Patashule. More information below
 
 ## Main Page
 <p align="center"><img align="center" src="./screenshot2.gif"></p>
